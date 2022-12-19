@@ -1,0 +1,1 @@
+This project is an example of required configuration and demo code to use spring security with webflux
