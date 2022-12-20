@@ -16,8 +16,8 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 
 @ExtendWith(SpringExtension.class)
 @WebFluxTest(controllers = {UserController.class, AdminController.class, DBAController.class})
-@ContextConfiguration(classes = {ProjectReactorApplication.class, SecurityConfig.class})
-class ProjectReactorApplicationTests {
+@ContextConfiguration(classes = {SpringSecurityApplication.class, SecurityConfig.class})
+class SpringSecurityApplicationTests {
 
 	@Autowired
 	WebTestClient webClient;
